@@ -1,0 +1,165 @@
+{
+    "firstName": "Vũ",
+    "lastName": "Huỳnh",
+    "nickName": "Win",
+    "age": 21,
+    "desc": "I'm a frontend web developer  focused on crafting clean & user‑friendly experiences, I am passionate about build excellent software that improves the lives of those around me",
+    "role": "Frontend web developer",
+    "isFreelance": true,
+    "address": "Da Nang, Viet Nam",
+    "phone": 969782408,
+    "email": "windev1108@gmail.com",
+    "github": "https://github.com/windev1108",
+    "facebook": "https://www.facebook.com/profile.php?id=100007616595443",
+    "instagram": "https://www.instagram.com/win2ker1/",
+    "twitter": "https://twitter.com/chjcago2001",
+    "nationality": "Viet Nam",
+    "languages": "Vietnamese , English",
+    "yearsExperience": 2,
+    "happyCustomers": 6,
+    "wonAwards": 2,
+    "skills": [{
+            "name": "HTML",
+            "img": "https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/html.svg",
+            "src": "https://www.w3schools.com/html"
+        },
+        {
+            "name": "CSS",
+            "img": "https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/css.svg",
+            "src": "https://www.w3schools.com/css"
+        },
+        {
+            "name": "Javascript",
+            "img": "https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/javascript.svg",
+            "src": "https://www.w3schools.com/javascript"
+        },
+        {
+            "name": "Typescript",
+            "img": "https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/typescript.svg",
+            "src": "https://www.typescriptlang.org"
+        },
+        {
+            "name": "NodeJS",
+            "img": "https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/nodejs.svg",
+            "src": "https://nodejs.org"
+        },
+        {
+            "name": "React",
+            "img": "https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/react.svg",
+            "src": "https://reactjs.org"
+        },
+        {
+            "name": "React Native",
+            "img": "https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/react.svg",
+            "src": "https://reactnative.dev"
+        },
+        {
+            "name": "NextJS",
+            "img": "https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/next.svg",
+            "src": "https://nextjs.org"
+        },
+        {
+            "name": "Prisma",
+            "img": "https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/prisma.svg",
+            "src": "https://www.prisma.io"
+        },
+        {
+            "name": "Vue",
+            "img": "https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/vue.svg",
+            "src": "https://vuejs.org"
+        },
+        {
+            "name": "TailwindCSS",
+            "img": "https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/tailwindcss.svg",
+            "src": "https://tailwindcss.com"
+        },
+        {
+            "name": "Firebase",
+            "img": "https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/firebase.svg",
+            "src": "https://firebase.google.com"
+        }
+    ],
+    "projects": [{
+            "id": 1,
+            "name": "Personal Portfolio",
+            "platform": "web",
+            "desc": "Build a personal portfolio website, wish to introduce yourself in detail in the website",
+            "imgs": [
+                "https://scontent.fdad1-3.fna.fbcdn.net/v/t1.15752-9/310837042_502164335179551_8851273938922406692_n.png?_nc_cat=110&ccb=1-7&_nc_sid=ae9488&_nc_ohc=rN2lZwJg090AX-SkHUx&_nc_ht=scontent.fdad1-3.fna&oh=03_AdSOnRjEwd3Lj1jakAYhb7G98FV7VaPdw9KVSEpFXTN_Zw&oe=63C8E3BD",
+                "https://scontent.fdad1-3.fna.fbcdn.net/v/t1.15752-9/312968052_802254257525643_2173779996696121840_n.png?_nc_cat=111&ccb=1-7&_nc_sid=ae9488&_nc_ohc=zY-vE2R-AAsAX8eoXDE&_nc_oc=AQnvGJ6nUm9ezB3l1sFMmw1ErFgERfweff9wsRKJ9PO2qkvn68ro6ycK7yLyrSeLMtk&tn=LdWPVaIUMkdkHWTz&_nc_ht=scontent.fdad1-3.fna&oh=03_AdRV9ZlFdLYNJ_m284wp6rPtZFFKPxMzpwSprv8J55HMUA&oe=63C8EFB2",
+                "https://scontent.fdad1-4.fna.fbcdn.net/v/t1.15752-9/315109193_841928703519629_371409836836665150_n.png?_nc_cat=100&ccb=1-7&_nc_sid=ae9488&_nc_ohc=up-jSly8Fy4AX_e3vL_&_nc_ht=scontent.fdad1-4.fna&oh=03_AdTGLz-Ae0j2lXdP8Gfk1vdmSis73Rx0OSBsRCML9u5heQ&oe=63C8E0BF",
+                "https://scontent.fdad1-4.fna.fbcdn.net/v/t1.15752-9/311295553_677792537062803_5727503643972494734_n.png?_nc_cat=103&ccb=1-7&_nc_sid=ae9488&_nc_ohc=Ty8VDODfRJQAX_HfWr_&_nc_ht=scontent.fdad1-4.fna&oh=03_AdQ2FjR7hwB362FQIQSA4yhDigG7J_QIjQmhcC2jYj0i8g&oe=63C8D464",
+                "https://scontent.fdad1-4.fna.fbcdn.net/v/t1.15752-9/312015711_8970716156275453_1994325767590021603_n.png?_nc_cat=103&ccb=1-7&_nc_sid=ae9488&_nc_ohc=l1zudE3eVk8AX9OSkOU&_nc_ht=scontent.fdad1-4.fna&oh=03_AdRAKqESCdRKQEm1fkvKE7IS4s_ihH678GZfkxOkzvkSPA&oe=63C8C643"
+            ],
+            "preview": "https://windev.vercel.app/",
+            "github": "https://github.com/vuhuynhdev102/personal-portfolio",
+            "languages": ["Vue", "Typescript", "TailwindCSS"]
+        },
+        {
+            "id": 2,
+            "name": "Sport Yard",
+            "platform": "web",
+            "desc": "Build a website for football field reservations and incorporating e-commerce with the goal of enabling users to reserve a field online whenever they want",
+            "imgs": [
+                "https://scontent.fdad1-1.fna.fbcdn.net/v/t1.15752-9/313905797_834234457725800_4104489205910517778_n.png?_nc_cat=109&ccb=1-7&_nc_sid=ae9488&_nc_ohc=rGlDN4Fu3IEAX_NpHQn&_nc_ht=scontent.fdad1-1.fna&oh=03_AdRiXEO1BCpmeAdtk3lIV2eAXEYWIentnQJGH9O4uMWkIw&oe=63C8CA95",
+                "https://scontent.fdad1-3.fna.fbcdn.net/v/t1.15752-9/309940877_838439594024610_8700389801183353565_n.png?_nc_cat=104&ccb=1-7&_nc_sid=ae9488&_nc_ohc=hVTv71S9xV8AX_FAobu&tn=LdWPVaIUMkdkHWTz&_nc_ht=scontent.fdad1-3.fna&oh=03_AdRiDjthLxoz05BOw9Yi5BDy3Jmz7yQ8MHndrGIhSfx57g&oe=63C8DC4E",
+                "https://scontent.fdad1-3.fna.fbcdn.net/v/t1.15752-9/311982773_434481375522970_7711211055223352931_n.png?_nc_cat=111&ccb=1-7&_nc_sid=ae9488&_nc_ohc=K3ygV9mxT40AX8wQ2Gl&_nc_ht=scontent.fdad1-3.fna&oh=03_AdRv0nhJeWEDRN5c5Vsfv7VXReAmhA2GLUQ46cpIKG4XrQ&oe=63C8E03C",
+                "https://scontent.fdad2-1.fna.fbcdn.net/v/t1.15752-9/311886435_458053266439735_265353923027298666_n.png?_nc_cat=108&ccb=1-7&_nc_sid=ae9488&_nc_ohc=oty0D8g9o94AX8rzu7u&_nc_ht=scontent.fdad2-1.fna&oh=03_AdTJo9i148TLrovn7p3HFkPqIded75I8GSpQeLw2jHMG5Q&oe=63C8E031",
+                "https://scontent.fdad1-4.fna.fbcdn.net/v/t1.15752-9/315494281_525430309455008_9184356902747992001_n.png?_nc_cat=105&ccb=1-7&_nc_sid=ae9488&_nc_ohc=R0xdowRdgCwAX9quu0c&_nc_ht=scontent.fdad1-4.fna&oh=03_AdT5piEkMGHc9PjlpU-ZiYXTshelmT_TXH37ecx530EuZw&oe=63C8EF37",
+                "https://scontent.fdad1-2.fna.fbcdn.net/v/t1.15752-9/312489858_1546646805837858_4662915776446819348_n.png?_nc_cat=102&ccb=1-7&_nc_sid=ae9488&_nc_ohc=a3sn_TUFXq8AX_moVuP&_nc_ht=scontent.fdad1-2.fna&oh=03_AdT8HdnGFeX49zqkyb-4LAdwHrvTZh64AD-5oHEZyuukCg&oe=63C8D398"
+            ],
+            "preview": "https://sport-yard.vercel.app",
+            "github": "https://github.com/vuhuynhdev102/sport_yard",
+            "languages": ["Typescript", "React", "NextJS", "NodeJS", "TailwindCSS"]
+        },
+        {
+            "id": 3,
+            "name": "Diffcord",
+            "platform": "web",
+            "desc": "Build a real-time web chat so that users can communicate, send each other pictures, and make video calls.",
+            "imgs": [
+                "https://scontent.fdad2-1.fna.fbcdn.net/v/t1.15752-9/313856264_524943129671902_7120254813639383745_n.png?_nc_cat=108&ccb=1-7&_nc_sid=ae9488&_nc_ohc=RStBDamA9pMAX_BRN23&_nc_ht=scontent.fdad2-1.fna&oh=03_AdROlyu18k5AI9qNYch1MKcZtqo23HpIuRGiUov4HRDS6A&oe=63C8F76C",
+                "https://scontent.fdad1-4.fna.fbcdn.net/v/t1.15752-9/309152495_595964658968207_2988952129767739386_n.png?_nc_cat=103&ccb=1-7&_nc_sid=ae9488&_nc_ohc=lVV3nBnMJWYAX-N8lNk&_nc_ht=scontent.fdad1-4.fna&oh=03_AdQ0-g9IW6gZImpO0EmNh0TANycvhq1ySKZCulPUgHZoAQ&oe=63C8E1B3",
+                "https://scontent.fdad1-2.fna.fbcdn.net/v/t1.15752-9/312491282_497191875502945_2848637836100624338_n.png?_nc_cat=106&ccb=1-7&_nc_sid=ae9488&_nc_ohc=d02nvHFt650AX_3k2iM&tn=LdWPVaIUMkdkHWTz&_nc_ht=scontent.fdad1-2.fna&oh=03_AdT7T4DcuIH-GCsZENjpzEI29aZMnZRD_SoEAt4wG9Rt7Q&oe=63C8DF64",
+                "https://scontent.fdad1-4.fna.fbcdn.net/v/t1.15752-9/312311544_685248866328429_7785288811511140974_n.png?_nc_cat=105&ccb=1-7&_nc_sid=ae9488&_nc_ohc=XA7d-N3RYzoAX9Rx9i4&_nc_ht=scontent.fdad1-4.fna&oh=03_AdQH27qwbSDUz1G95Zyy4agKSmVOT6CZTjhMW1nb0TVteg&oe=63C8E4D5",
+                "https://scontent.fdad1-2.fna.fbcdn.net/v/t1.15752-9/313930296_685942566300694_452464321057736630_n.png?_nc_cat=102&ccb=1-7&_nc_sid=ae9488&_nc_ohc=nM941XrlmKIAX94cRP6&_nc_ht=scontent.fdad1-2.fna&oh=03_AdRxKQFX_iOdwp9fDyz9eIzfwHHgfuUv1vd7V0CdgjK3vA&oe=63C8F8FA"
+            ],
+            "preview": "https://diffcord.live",
+            "github": "https://github.com/vuhuynhdev102/diffcord/tree/main/client",
+            "languages": ["Javascript", "React", "NodeJS", "TailwindCSS", "Firebase"]
+        },
+        {
+            "id": 4,
+            "name": "WinFilm",
+            "platform": "web",
+            "desc": "Build an online movie watching website, wishing to help people watch the most attractive and fastest updated movies",
+            "imgs": [
+                "https://scontent.fdad1-4.fna.fbcdn.net/v/t1.15752-9/308241752_1539437913187118_4202792629609664060_n.png?_nc_cat=100&ccb=1-7&_nc_sid=ae9488&_nc_ohc=pLL8ndvOTn0AX85YiEL&_nc_ht=scontent.fdad1-4.fna&oh=03_AdSW9TeJ1gRjpzHX0CRnB2uCYf6IADR_eqFyfX-KJRH__A&oe=639C08D6",
+                "https://scontent.fdad1-2.fna.fbcdn.net/v/t1.15752-9/310763544_653364092922756_7282947929027015674_n.png?_nc_cat=102&ccb=1-7&_nc_sid=ae9488&_nc_ohc=0wuFA2C7VpwAX98PAaj&_nc_ht=scontent.fdad1-2.fna&oh=03_AdT4XoulpUqEnj4qljp_580xy7dtZox_hlA61R116zbfYA&oe=639C0866",
+                "https://scontent.fdad1-4.fna.fbcdn.net/v/t1.15752-9/308694944_526931412632728_5728643114572630028_n.png?_nc_cat=103&ccb=1-7&_nc_sid=ae9488&_nc_ohc=t27Jec1qfrQAX_1CbM6&_nc_ht=scontent.fdad1-4.fna&oh=03_AdS-KBd9V3YAIa1opkkCyZuX5mkzDarJNcWMhOmqKyuowA&oe=639C0203",
+                "https://scontent.fdad1-3.fna.fbcdn.net/v/t1.15752-9/309446490_1135126637374220_5184259344839229950_n.png?_nc_cat=104&ccb=1-7&_nc_sid=ae9488&_nc_ohc=bwIMoGtV2wgAX-JEahz&_nc_ht=scontent.fdad1-3.fna&oh=03_AdRvtDWnDzBLTusTXvcPBesI-MpxRJddFC17ZpKBfXrWSQ&oe=639BF7BB",
+                "https://scontent.fdad1-1.fna.fbcdn.net/v/t1.15752-9/309892791_822692562317895_1388058657678940514_n.png?_nc_cat=109&ccb=1-7&_nc_sid=ae9488&_nc_ohc=MsS7WMlBGRQAX_M7zFP&_nc_ht=scontent.fdad1-1.fna&oh=03_AdSc-tG2o-9s8Qq_VAs3yqkQrvjmb_lFoaMu67JP3B7Liw&oe=639C05CE",
+                "https://scontent.fdad1-1.fna.fbcdn.net/v/t1.15752-9/313099318_664893301876663_2009207484975352272_n.png?_nc_cat=109&ccb=1-7&_nc_sid=ae9488&_nc_ohc=DlTa0OjLeEQAX9RdkaS&_nc_ht=scontent.fdad1-1.fna&oh=03_AdTBFw3nR9fA01y8GaEtqn9LzNdQDkEqMtXeeevlOLSyjQ&oe=639C03AD"
+            ],
+            "preview": "https://winphim-react.web.app",
+            "github": "https://github.com/vuhuynhdev102/winphim-react",
+            "languages": ["Javascript", "React", "TailwindCSS", "Firebase"]
+        },
+        {
+            "id": 5,
+            "name": "Deliveroo Clone",
+            "desc": "Build your first project using react native according to deliveroo template",
+            "platform": "mobile",
+            "imgs": [
+                "https://scontent.fdad2-1.fna.fbcdn.net/v/t1.15752-9/315357328_1518947708573660_4113145158067380876_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=ae9488&_nc_ohc=IJcgL3V6IGgAX-A5XVa&_nc_ht=scontent.fdad2-1.fna&oh=03_AdTe9roxacfZOOrQQ_Z6xyc-A05jzZ3-QNLXvBB5EYKPIA&oe=63C8E2F5",
+                "https://scontent.fdad1-3.fna.fbcdn.net/v/t1.15752-9/315523640_1287337375422550_2248171470616430932_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=ae9488&_nc_ohc=vFZr0cvce1QAX89s8p8&_nc_ht=scontent.fdad1-3.fna&oh=03_AdReezkFAkcVYTwg0AMgAIWGbqproUIT8qbdgx5qIJLaXw&oe=63C8C7A0",
+                "https://scontent.fdad1-4.fna.fbcdn.net/v/t1.15752-9/315201761_703910977425375_6306824908500713255_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=ae9488&_nc_ohc=opFawa95z70AX-jujxq&_nc_ht=scontent.fdad1-4.fna&oh=03_AdQAH8BfedkLYP92WIlKA7S8ci57YsMkTvQsnhAEvuy45w&oe=63C8D648",
+                "https://scontent.fdad1-3.fna.fbcdn.net/v/t1.15752-9/315299148_657624769075874_5050719175609975951_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=ae9488&_nc_ohc=mAL_pmcHQXAAX-MPY8b&tn=LdWPVaIUMkdkHWTz&_nc_ht=scontent.fdad1-3.fna&oh=03_AdSMj11GFHyjoLpp-xL_QomEFRbsPYpw_HxjdUVrK7f7KA&oe=63C8F233",
+                "https://scontent.fdad1-2.fna.fbcdn.net/v/t1.15752-9/314437558_655391139642987_6027140187433056899_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=ae9488&_nc_ohc=Kg9-8IfbdIoAX-d2_C4&tn=LdWPVaIUMkdkHWTz&_nc_ht=scontent.fdad1-2.fna&oh=03_AdSF1LSa87AgmHhRSmnM8Jf2ZqGVKULfXRuHVse74FB8Gw&oe=63C8DA61"
+            ],
+            "preview": "https://firebasestorage.googleapis.com/v0/b/discord-6e069.appspot.com/o/file%2F315914578_5992870357390942_6313454665218323563_n.mp4?alt=media&token=b15d8233-2536-4b1f-9fc2-73056d3a2d7c",
+            "github": "https://github.com/vuhuynhdev102/deliveroo-clone",
+            "languages": ["Typescript", "React Native", "TailwindCSS", "Firebase"]
+        }
+    ]
+}

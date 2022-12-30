@@ -9,6 +9,7 @@
     "address": "Da Nang, Viet Nam",
     "phone": 969782408,
     "email": "windev1108@gmail.com",
+    "avatar": "https://res.cloudinary.com/delsoy2zv/image/upload/v1671872586/my-uploads/qjss0ib8vwzyim2v3jwr.jpg",
     "github": "https://github.com/windev1108",
     "facebook": "https://www.facebook.com/profile.php?id=100007616595443",
     "instagram": "https://www.instagram.com/win2ker1/",
@@ -59,11 +60,6 @@
             "src": "https://nextjs.org"
         },
         {
-            "name": "Prisma",
-            "img": "https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/prisma.svg",
-            "src": "https://www.prisma.io"
-        },
-        {
             "name": "Vue",
             "img": "https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/vue.svg",
             "src": "https://vuejs.org"
@@ -72,6 +68,11 @@
             "name": "TailwindCSS",
             "img": "https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/tailwindcss.svg",
             "src": "https://tailwindcss.com"
+        },
+        {
+            "name": "Prisma",
+            "img": "https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/prisma.svg",
+            "src": "https://www.prisma.io"
         },
         {
             "name": "Firebase",

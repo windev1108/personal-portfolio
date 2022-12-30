@@ -129,12 +129,12 @@ import dataJson from '../../data/user.json'
           <div 
           :class="[ fadeOut  ? 'top-[50%] opacity-0' : 'top-0 opacity-100']"
           class="fixed lg:mt-0 mt-10 lg:space-y-0 space-y-6 lg:flex block transition-all duration-700 ease-in-out top-0 left-0 right-0 bottom-0 items-center lg:space-x-28 z-10 w-full lg:px-12 px-5">
-            <div class="lg:w-[30%] w-full lg:rounded-3xl lg:shadow-md flex justify-center  overflow-hidden">
-               <img class="lg:border-none border-[4px] border-[#333] shadow-md lg:rounded-none rounded-full object-cover h-[15rem] w-[15rem] lg:w-full lg:h-full" src="../assets/avatar.jpg" alt="">
+            <div class="lg:w-[30%] lg:h-[30rem]  w-full flex justify-center  overflow-hidden">
+               <img class="lg:border-none border-[4px] border-[#333] shadow-md rounded-full object-cover lg:rounded-3xl lg:shadow-md  h-[15rem] lg:w-[20rem] w-[15rem]  lg:h-full" :src="`${user.avatar}`" alt="">
             </div>
             <div class="lg:w-[50%] w-full lg:space-y-12 space-y-4"> 
               <div class="lg:space-y-4 space-y-2">
-               <h1 class="font-bold lg:text-5xl text-3xl lg:text-left text-center text-primary delay-300">{{`- I'm ${user.nickName}`}}</h1>
+               <h1 class="font-bold lg:text-5xl text-3xl lg:text-left text-center text-primary delay-300">{{`- I'm ${user.firstName}`}}</h1>
                <h1 
                :class="[ theme === 'light'  ? 'text-[#666]' : 'text-white delay-300']"
                class="font-bold lg:pl-8 pl-0 lg:text-left text-center lg:text-5xl text-2xl">{{user.role}}</h1>

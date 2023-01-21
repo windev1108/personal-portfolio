@@ -131,13 +131,13 @@
                 <h3 
                 :class="[ theme === 'dark' ? 'text-[#fff]' : 'text-[#666]']" 
                 class="lg:px-0 px-6 lg:text-lg text-sm text-center transition-all duration-1000">Technologies and languages that I use to make my products everyday</h3>
-                <div class="grid lg:grid-cols-4 grid-cols-2  pt-12 space-y-8 items-center gap-4">
+                <div class="grid lg:grid-cols-5 grid-cols-2  pt-12 space-y-8 items-center gap-4">
                     <a
                     :class="skill.name === 'HTML' && 'mt-[32px]'"
                     class="mx-auto my-0" v-for="skill in skills" v-bind:key="skill.name" target="_blank" v-bind:href="skill.src" >
                         <img 
                         :class="[skill.name === 'React Native'&& 'ml-2',skill.name === 'TailwindCSS'&& 'ml-2']"
-                        class="hover:scale-110 transition-all duration-300 ease-in-out object-cover w-20 h-20" v-bind:src="skill.img" v-bind:alt="skill.name">
+                        class="hover:scale-110 transition-all duration-300 ease-in-out object-cover w-20 h-20 relative" v-bind:src="skill.img" v-bind:alt="skill.name">
                         <h1 :class="[ theme === 'dark' ? 'text-[#fff]' : 'text-[#666]']" class="text-center font-semibold text-white transition-all duration-1000">{{skill.name}}</h1>
                     </a>
                 </div>
@@ -148,12 +148,13 @@
 </template>
 
 <script setup lang="ts">
+import assert from 'assert';
 import {
     onMounted,
     onUnmounted,
     ref
 } from 'vue';
-import dataJson from '../../data/user.json'
+import dataJson from '../../data/user.json' 
 import CV_PDF from '../assets/CV_EN.pdf'
 
 const isFadeIn = ref(false)

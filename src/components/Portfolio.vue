@@ -45,10 +45,10 @@
                             <span>Live Demo</span>
                         </a>
 
-                        <!-- <a v-bind:href="project.github" target="_blank" class="flex items-center space-x-2 bg-[#1b222b] h-10 text-white  px-4 rounded-md">
+                        <a v-bind:href="project.github" target="_blank" class="flex items-center space-x-2 bg-[#1b222b] h-10 text-white  px-4 rounded-md">
                             <font-awesome-icon  icon="fa-brands fa-github" />
                             <span>View Github</span>
-                        </a> -->
+                        </a>
                     </div>
                 </div>
                 <div class="lg:w-[50%] w-full rounded-lg">

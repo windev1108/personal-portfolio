@@ -155,7 +155,7 @@ import {
     ref
 } from 'vue';
 import dataJson from '../../data/user.json' 
-import CV_PDF from '../assets/CV_EN.pdf'
+import CV_PDF from '../assets/CV.pdf'
 
 const isFadeIn = ref(false)
 const user : any =  dataJson

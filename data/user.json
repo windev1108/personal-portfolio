@@ -96,8 +96,28 @@
         }
 
     ],
-    "projects": [{
+    "projects": [
+        {
             "id": 1,
+            "name": "WSocial",
+            "platform": "web",
+            "desc": "Create a social networking platform with the intention of bringing people together",
+            "imgs": [
+                "https://firebasestorage.googleapis.com/v0/b/discord-6e069.appspot.com/o/file%2Fscreen3.jpg?alt=media&token=653baafe-59ed-4a03-9edd-9b867c07369f",
+                "https://firebasestorage.googleapis.com/v0/b/discord-6e069.appspot.com/o/file%2Fscreen1.jpg?alt=media&token=69631257-2633-452a-8294-11b93cace635",
+                "https://firebasestorage.googleapis.com/v0/b/discord-6e069.appspot.com/o/file%2Fscreen4.jpg?alt=media&token=c4580de8-4ca0-4e6c-8cd8-00690617bacb",
+                "https://firebasestorage.googleapis.com/v0/b/discord-6e069.appspot.com/o/file%2Fscreen9.jpg?alt=media&token=f7d4f0b9-aa60-42b8-b4c2-92efd25b590e",
+                "https://firebasestorage.googleapis.com/v0/b/discord-6e069.appspot.com/o/file%2Fscreen6.jpg?alt=media&token=09f02f0b-a132-465d-b8dd-0ecc50b3220e",
+                "https://firebasestorage.googleapis.com/v0/b/discord-6e069.appspot.com/o/file%2Fscreen7.jpg?alt=media&token=e092f2bc-c13c-420a-a29b-a7ae4b488a7c",
+                "https://firebasestorage.googleapis.com/v0/b/discord-6e069.appspot.com/o/file%2Fscreen8.jpg?alt=media&token=4423bd68-3643-4710-8198-c777ba632204",
+                "https://firebasestorage.googleapis.com/v0/b/discord-6e069.appspot.com/o/file%2Fscreen10.jpg?alt=media&token=db463e8b-d316-45c5-975b-c41fdd0e6902"
+            ],
+            "preview": "https://wsocial.vercel.app",
+            "github": "https://github.com/windev1108/wsocial",
+            "languages": ["Typescript", "TailwindCSS" , "NextJS" , "NodeJS" , "Redux" , "Socket.IO" , "GraphQL"]
+        },
+        {
+            "id": 2,
             "name": "Personal Portfolio",
             "platform": "web",
             "desc": "Build a personal portfolio website, wish to introduce yourself in detail in the website",
@@ -113,7 +133,7 @@
             "languages": ["Vue", "Typescript", "TailwindCSS"]
         },
         {
-            "id": 2,
+            "id": 3,
             "name": "Sport Yard",
             "platform": "web",
             "desc": "Build a website for football field reservations and incorporating e-commerce with the goal of enabling users to reserve a field online whenever they want",
@@ -130,7 +150,7 @@
             "languages": ["Typescript", "React", "Redux", "NextJS", "NodeJS", "TailwindCSS", "Socket.IO"]
         },
         {
-            "id": 3,
+            "id": 4,
             "name": "Diffcord",
             "platform": "web",
             "desc": "Build a real-time web chat so that users can communicate, send each other pictures, and make video calls.",
@@ -145,7 +165,7 @@
             "languages": ["Javascript", "React", "Redux", "NodeJS", "TailwindCSS", "Firebase"]
         },
         {
-            "id": 4,
+            "id": 5,
             "name": "WinFilm",
             "platform": "web",
             "desc": "Build an online movie watching website, wishing to help people watch the most attractive and fastest updated movies",
@@ -161,7 +181,7 @@
             "languages": ["Javascript", "React", "TailwindCSS", "Firebase"]
         },
         {
-            "id": 5,
+            "id": 6,
             "name": "Deliveroo Clone",
             "desc": "Build your first project using react native according to deliveroo template",
             "platform": "mobile",

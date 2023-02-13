@@ -114,7 +114,7 @@
             ],
             "preview": "https://wsocial.vercel.app",
             "github": "https://github.com/windev1108/wsocial",
-            "languages": ["Typescript", "TailwindCSS" , "NextJS" , "NodeJS" , "Redux" , "Socket.IO" , "GraphQL"]
+            "languages": ["Typescript", "TailwindCSS" , "NextJS" , "NodeJS" , "Redux" , "Prisma" , "Socket.IO" , "GraphQL"]
         },
         {
             "id": 2,

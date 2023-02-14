@@ -50,11 +50,6 @@
             "src": "https://reactjs.org"
         },
         {
-            "name": "React Native",
-            "img": "https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/react.svg",
-            "src": "https://reactnative.dev"
-        },
-        {
             "name": "NextJS",
             "img": "https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/next.svg",
             "src": "https://nextjs.org"
@@ -194,7 +189,7 @@
             ],
             "preview": "https://firebasestorage.googleapis.com/v0/b/discord-6e069.appspot.com/o/file%2F315914578_5992870357390942_6313454665218323563_n.mp4?alt=media&token=b15d8233-2536-4b1f-9fc2-73056d3a2d7c",
             "github": "https://github.com/windev1108/deliveroo-clone",
-            "languages": ["Typescript", "React Native", "Redux", "TailwindCSS", "Firebase"]
+            "languages": ["Typescript", "React", "Redux", "TailwindCSS", "Firebase"]
         }
     ]
 }

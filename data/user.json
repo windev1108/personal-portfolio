@@ -1,284 +1,259 @@
 {
-  "firstName": "Vũ",
-  "lastName": "Huỳnh",
-  "nickName": "Win",
-  "age": 21,
-  "desc": "I'm a front-end web developer  focused on crafting clean & user‑friendly experiences, I am passionate about build excellent software that improves the lives of those around me",
-  "role": "Front-end web developer",
-  "isFreelance": true,
-  "address": "Ho Chi Minh City, Viet Nam",
-  "phone": 969782408,
-  "email": "vu.huynhanh102@gmail.com",
-  "avatar": "https://res.cloudinary.com/delsoy2zv/image/upload/v1671872586/my-uploads/qjss0ib8vwzyim2v3jwr.jpg",
-  "github": "https://github.com/windev1108",
-  "facebook": "https://www.facebook.com/profile.php?id=100007616595443",
-  "instagram": "https://www.instagram.com/win2ker1/",
-  "twitter": "https://twitter.com/chjcago2001",
-  "nationality": "Viet Nam",
-  "languages": "Vietnamese , English",
-  "yearsExperience": 2,
-  "happyCustomers": 6,
-  "wonAwards": 2,
-  "skills": [
-    {
-      "name": "HTML",
-      "img": "https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/html.svg",
-      "src": "https://www.w3schools.com/html"
-    },
-    {
-      "name": "CSS",
-      "img": "https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/css.svg",
-      "src": "https://www.w3schools.com/css"
-    },
-    {
-      "name": "Javascript",
-      "img": "https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/javascript.svg",
-      "src": "https://www.w3schools.com/javascript"
-    },
-    {
-      "name": "Typescript",
-      "img": "https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/typescript.svg",
-      "src": "https://www.typescriptlang.org"
-    },
-    {
-      "name": "NodeJS",
-      "img": "https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/nodejs.svg",
-      "src": "https://nodejs.org"
-    },
-    {
-      "name": "NestJS",
-      "img": "https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/nest.svg",
-      "src": "https://nestjs.com"
-    },
-    {
-      "name": "React",
-      "img": "https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/react.svg",
-      "src": "https://reactjs.org"
-    },
-    {
-      "name": "React Native",
-      "img": "https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/react.svg",
-      "src": "https://reactnative.dev"
-    },
-    {
-      "name": "NextJS",
-      "img": "https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/next.svg",
-      "src": "https://nextjs.org"
-    },
-    {
-      "name": "Vue",
-      "img": "https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/vue.svg",
-      "src": "https://vuejs.org"
-    },
-    {
-      "name": "Redux",
-      "img": "https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/redux-action.svg",
-      "src": "https://redux-toolkit.js.org/"
-    },
-    {
-      "name": "TailwindCSS",
-      "img": "https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/tailwindcss.svg",
-      "src": "https://tailwindcss.com"
-    },
-    {
-      "name": "Prisma",
-      "img": "https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/prisma.svg",
-      "src": "https://www.prisma.io"
-    },
-    {
-      "name": "GraphQL",
-      "img": "https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/graphql.svg",
-      "src": "https://graphql.org"
-    },
-    {
-      "name": "Firebase",
-      "img": "https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/firebase.svg",
-      "src": "https://firebase.google.com"
-    },
-    {
-      "name": "Socket.IO",
-      "img": "https://socket.io/images/logo-dark.svg",
-      "src": "https://socket.io"
-    }
-  ],
-  "projects": [
-    {
-      "id": 1,
-      "name": "MINT III",
-      "platform": "web",
-      "desc": "Mintiii is an NFT ecosystem with a powerful NFT Generator and Editor. You can customize your own NFT as you wish, just like playing game!",
-      "imgs": [
-        "/images/mintiii/1.png",
-        "/images/mintiii/2.png",
-        "/images/mintiii/3.png",
-        "/images/mintiii/4.png",
-        "/images/mintiii/5.png"
-      ],
-      "preview": "https://mintiii-frontend-staging.vercel.app",
-      "github": "https://github.com",
-      "languages": [
-        "Typescript",
-        "NextJS",
-        "NestJS",
-        "TailwindCSS",
-        "Socket.IO",
-        "Redux"
-      ]
-    },
-    {
-      "id": 2,
-      "name": "ChiChi",
-      "platform": "web",
-      "desc": "E-commerce website with integrated online payment",
-      "imgs": [
-        "/images/chichi/1.png",
-        "/images/chichi/2.png",
-        "/images/chichi/3.png",
-        "/images/chichi/4.png",
-        "/images/chichi/5.png",
-        "/images/chichi/6.png",
-        "/images/chichi/7.png",
-        "/images/chichi/8.png"
-      ],
-      "preview": "https://chichi-store.vercel.app/",
-      "github": "https://github.com",
-      "languages": [
-        "Typescript",
-        "TailwindCSS",
-        "NextJS",
-        "NestJS",
-        "Redux",
-        "Socket.IO"
-      ]
-    },
-    {
-      "id": 3,
-      "name": "WSocial",
-      "platform": "web",
-      "desc": "Create a social networking platform with the intention of bringing people together",
-      "imgs": [
-        "/images/wsocial/1.jpg",
-        "/images/wsocial/2.jpg",
-        "/images/wsocial/3.jpg",
-        "/images/wsocial/4.jpg",
-        "/images/wsocial/5.jpg",
-        "/images/wsocial/6.jpg",
-        "/images/wsocial/7.jpg"
-      ],
-      "preview": "https://wsocial.vercel.app",
-      "github": "https://github.com/vuhuynhdev102/wsocial",
-      "languages": [
-        "Typescript",
-        "TailwindCSS",
-        "NextJS",
-        "NodeJS",
-        "Redux",
-        "Prisma",
-        "GraphQL",
-        "Socket.IO"
-      ]
-    },
-    {
-      "id": 4,
-      "name": "Personal Portfolio",
-      "platform": "web",
-      "desc": "Build a personal portfolio website, wish to introduce yourself in detail in the website",
-      "imgs": [
-        "/images/portfolio/1.png",
-        "/images/portfolio/2.png",
-        "/images/portfolio/3.png",
-        "/images/portfolio/4.png",
-        "/images/portfolio/5.png"
-      ],
-      "preview": "https://windev.vercel.app/",
-      "github": "https://github.com/vuhuynhdev102/personal-portfolio",
-      "languages": ["Vue", "Typescript", "TailwindCSS"]
-    },
-    {
-      "id": 5,
-      "name": "Sport Yard",
-      "platform": "web",
-      "desc": "Build a website for football field reservations and incorporating e-commerce with the goal of enabling users to reserve a field online whenever they want",
-      "imgs": [
-        "/images/sport-yard/1.png",
-        "/images/sport-yard/2.png",
-        "/images/sport-yard/3.png",
-        "/images/sport-yard/4.png",
-        "/images/sport-yard/5.png"
-      ],
-      "preview": "https://sport-yard.vercel.app",
-      "github": "https://github.com/windev1108/sport-yard",
-      "languages": [
-        "Typescript",
-        "React",
-        "Redux",
-        "NextJS",
-        "NodeJS",
-        "TailwindCSS",
-        "Socket.IO"
-      ]
-    },
-    {
-      "id": 6,
-      "name": "Diffcord",
-      "platform": "web",
-      "desc": "Build a real-time web chat so that users can communicate, send each other pictures, and make video calls.",
-      "imgs": [
-        "/images/diffcord/1.png",
-        "/images/diffcord/2.png",
-        "/images/diffcord/3.png",
-        "/images/diffcord/4.png",
-        "/images/diffcord/5.png"
-      ],
-      "preview": "https://diffcord.live",
-      "github": "https://github.com/windev1108/diffcord/tree/main/client",
-      "languages": [
-        "Javascript",
-        "React",
-        "Redux",
-        "NodeJS",
-        "TailwindCSS",
-        "Firebase"
-      ]
-    },
-    {
-      "id": 7,
-      "name": "WinFilm",
-      "platform": "web",
-      "desc": "Build an online movie watching website, wishing to help people watch the most attractive and fastest updated movies",
-      "imgs": [
-        "/images/win-film/1.png",
-        "/images/win-film/2.png",
-        "/images/win-film/3.png",
-        "/images/win-film/4.png",
-        "/images/win-film/5.png",
-        "/images/win-film/6.png"
-      ],
-      "preview": "https://winphim-react.web.app",
-      "github": "https://github.com/windev1108/winphim-react",
-      "languages": ["Javascript", "React", "TailwindCSS", "Firebase"]
-    },
-    {
-      "id": 8,
-      "name": "Deliveroo Clone",
-      "desc": "Build your first project using react native according to deliveroo template",
-      "platform": "mobile",
-      "imgs": [
-        "/images/deliveroo/1.jpg",
-        "/images/deliveroo/2.jpg",
-        "/images/deliveroo/3.jpg",
-        "/images/deliveroo/4.jpg",
-        "/images/deliveroo/5.jpg"
-      ],
-      "preview": "https://firebasestorage.googleapis.com/v0/b/discord-6e069.appspot.com/o/file%2F315914578_5992870357390942_6313454665218323563_n.mp4?alt=media&token=b15d8233-2536-4b1f-9fc2-73056d3a2d7c",
-      "github": "https://github.com/windev1108/deliveroo-clone",
-      "languages": [
-        "Typescript",
-        "React Native",
-        "Redux",
-        "TailwindCSS",
-        "Firebase"
-      ]
-    }
-  ]
+    "firstName": "Vũ",
+    "lastName": "Huỳnh",
+    "nickName": "Win",
+    "age": 21,
+    "desc": "I'm a front-end web developer  focused on crafting clean & user‑friendly experiences, I am passionate about build excellent software that improves the lives of those around me",
+    "role": "Front-end web developer",
+    "isFreelance": true,
+    "address": "Ho Chi Minh City, Viet Nam",
+    "phone": 969782408,
+    "email": "vu.huynhanh102@gmail.com",
+    "avatar": "https://res.cloudinary.com/delsoy2zv/image/upload/v1671872586/my-uploads/qjss0ib8vwzyim2v3jwr.jpg",
+    "github": "https://github.com/windev1108",
+    "facebook": "https://www.facebook.com/profile.php?id=100007616595443",
+    "instagram": "https://www.instagram.com/win2ker1/",
+    "twitter": "https://twitter.com/chjcago2001",
+    "nationality": "Viet Nam",
+    "languages": "Vietnamese , English",
+    "yearsExperience": 2,
+    "happyCustomers": 6,
+    "wonAwards": 2,
+    "skills": [{
+            "name": "HTML",
+            "img": "https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/html.svg",
+            "src": "https://www.w3schools.com/html"
+        },
+        {
+            "name": "CSS",
+            "img": "https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/css.svg",
+            "src": "https://www.w3schools.com/css"
+        },
+        {
+            "name": "Javascript",
+            "img": "https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/javascript.svg",
+            "src": "https://www.w3schools.com/javascript"
+        },
+        {
+            "name": "Typescript",
+            "img": "https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/typescript.svg",
+            "src": "https://www.typescriptlang.org"
+        },
+        {
+            "name": "NodeJS",
+            "img": "https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/nodejs.svg",
+            "src": "https://nodejs.org"
+        },
+        {
+            "name": "NestJS",
+            "img": "https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/nest.svg",
+            "src": "https://nestjs.com"
+        },
+        {
+            "name": "React",
+            "img": "https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/react.svg",
+            "src": "https://reactjs.org"
+        },
+        {
+            "name": "React Native",
+            "img": "https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/react.svg",
+            "src": "https://reactnative.dev"
+        },
+        {
+            "name": "NextJS",
+            "img": "https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/next.svg",
+            "src": "https://nextjs.org"
+        },
+        {
+            "name": "Vue",
+            "img": "https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/vue.svg",
+            "src": "https://vuejs.org"
+        },
+        {
+            "name": "Redux",
+            "img": "https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/redux-action.svg",
+            "src": "https://redux-toolkit.js.org/"
+        },
+        {
+            "name": "TailwindCSS",
+            "img": "https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/tailwindcss.svg",
+            "src": "https://tailwindcss.com"
+        },
+        {
+            "name": "Prisma",
+            "img": "https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/prisma.svg",
+            "src": "https://www.prisma.io"
+        },
+        {
+            "name": "GraphQL",
+            "img": "https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/graphql.svg",
+            "src": "https://graphql.org"
+        },
+        {
+            "name": "Firebase",
+            "img": "https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/firebase.svg",
+            "src": "https://firebase.google.com"
+        },
+        {
+            "name": "Socket.IO",
+            "img": "https://socket.io/images/logo-dark.svg",
+            "src": "https://socket.io"
+        }
+    ],
+    "projects": [{
+            "id": 2,
+            "name": "ChiChi",
+            "platform": "web",
+            "desc": "E-commerce website with integrated online payment",
+            "imgs": [
+                "/images/chichi/1.png",
+                "/images/chichi/2.png",
+                "/images/chichi/3.png",
+                "/images/chichi/4.png",
+                "/images/chichi/5.png",
+                "/images/chichi/6.png",
+                "/images/chichi/7.png",
+                "/images/chichi/8.png"
+            ],
+            "preview": "https://chichi-store.vercel.app/",
+            "github": "https://github.com",
+            "languages": [
+                "Typescript",
+                "TailwindCSS",
+                "NextJS",
+                "NestJS",
+                "Redux",
+                "Socket.IO"
+            ]
+        },
+        {
+            "id": 3,
+            "name": "WSocial",
+            "platform": "web",
+            "desc": "Create a social networking platform with the intention of bringing people together",
+            "imgs": [
+                "/images/wsocial/1.jpg",
+                "/images/wsocial/2.jpg",
+                "/images/wsocial/3.jpg",
+                "/images/wsocial/4.jpg",
+                "/images/wsocial/5.jpg",
+                "/images/wsocial/6.jpg",
+                "/images/wsocial/7.jpg"
+            ],
+            "preview": "https://wsocial.vercel.app",
+            "github": "https://github.com/vuhuynhdev102/wsocial",
+            "languages": [
+                "Typescript",
+                "TailwindCSS",
+                "NextJS",
+                "NodeJS",
+                "Redux",
+                "Prisma",
+                "GraphQL",
+                "Socket.IO"
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Personal Portfolio",
+            "platform": "web",
+            "desc": "Build a personal portfolio website, wish to introduce yourself in detail in the website",
+            "imgs": [
+                "/images/portfolio/1.png",
+                "/images/portfolio/2.png",
+                "/images/portfolio/3.png",
+                "/images/portfolio/4.png",
+                "/images/portfolio/5.png"
+            ],
+            "preview": "https://windev.vercel.app/",
+            "github": "https://github.com/vuhuynhdev102/personal-portfolio",
+            "languages": ["Vue", "Typescript", "TailwindCSS"]
+        },
+        {
+            "id": 5,
+            "name": "Sport Yard",
+            "platform": "web",
+            "desc": "Build a website for football field reservations and incorporating e-commerce with the goal of enabling users to reserve a field online whenever they want",
+            "imgs": [
+                "/images/sport-yard/1.png",
+                "/images/sport-yard/2.png",
+                "/images/sport-yard/3.png",
+                "/images/sport-yard/4.png",
+                "/images/sport-yard/5.png"
+            ],
+            "preview": "https://sport-yard.vercel.app",
+            "github": "https://github.com/windev1108/sport-yard",
+            "languages": [
+                "Typescript",
+                "React",
+                "Redux",
+                "NextJS",
+                "NodeJS",
+                "TailwindCSS",
+                "Socket.IO"
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Diffcord",
+            "platform": "web",
+            "desc": "Build a real-time web chat so that users can communicate, send each other pictures, and make video calls.",
+            "imgs": [
+                "/images/diffcord/1.png",
+                "/images/diffcord/2.png",
+                "/images/diffcord/3.png",
+                "/images/diffcord/4.png",
+                "/images/diffcord/5.png"
+            ],
+            "preview": "https://diffcord.live",
+            "github": "https://github.com/windev1108/diffcord/tree/main/client",
+            "languages": [
+                "Javascript",
+                "React",
+                "Redux",
+                "NodeJS",
+                "TailwindCSS",
+                "Firebase"
+            ]
+        },
+        {
+            "id": 7,
+            "name": "WinFilm",
+            "platform": "web",
+            "desc": "Build an online movie watching website, wishing to help people watch the most attractive and fastest updated movies",
+            "imgs": [
+                "/images/win-film/1.png",
+                "/images/win-film/2.png",
+                "/images/win-film/3.png",
+                "/images/win-film/4.png",
+                "/images/win-film/5.png",
+                "/images/win-film/6.png"
+            ],
+            "preview": "https://winphim-react.web.app",
+            "github": "https://github.com/windev1108/winphim-react",
+            "languages": ["Javascript", "React", "TailwindCSS", "Firebase"]
+        },
+        {
+            "id": 8,
+            "name": "Deliveroo Clone",
+            "desc": "Build your first project using react native according to deliveroo template",
+            "platform": "mobile",
+            "imgs": [
+                "/images/deliveroo/1.jpg",
+                "/images/deliveroo/2.jpg",
+                "/images/deliveroo/3.jpg",
+                "/images/deliveroo/4.jpg",
+                "/images/deliveroo/5.jpg"
+            ],
+            "preview": "https://firebasestorage.googleapis.com/v0/b/discord-6e069.appspot.com/o/file%2F315914578_5992870357390942_6313454665218323563_n.mp4?alt=media&token=b15d8233-2536-4b1f-9fc2-73056d3a2d7c",
+            "github": "https://github.com/windev1108/deliveroo-clone",
+            "languages": [
+                "Typescript",
+                "React Native",
+                "Redux",
+                "TailwindCSS",
+                "Firebase"
+            ]
+        }
+    ]
 }

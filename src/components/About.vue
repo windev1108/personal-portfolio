@@ -148,12 +148,12 @@
                   :class="[theme === 'dark' ? 'text-[#fff]' : 'text-[#666]']"
                   class="font-semibold transition-all duration-1000 text-[#fff] text-opacity-60"
                 >
-                  Freelance:
+                  Open for work:
                 </h1>
                 <h1
                   class="font-semibold transition-all duration-1000 text-[#5be85b]"
                 >
-                  {{ user.isFreelance ? "Available" : "Unavailable" }}
+                  {{ user.isOpenJob ? "Available" : "Unavailable" }}
                 </h1>
               </div>
               <div

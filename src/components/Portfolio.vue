@@ -38,16 +38,25 @@
                             </div>
                         </a>
                     </div>
-
+                    
+                    <div 
+                    :class="[ theme === 'dark' ? 'text-[#fff]' : 'text-[#666]']" 
+                    class="flex items-center space-x-2">
+                        <font-awesome-icon icon="fa-solid fa-user" class="tex-xl" />
+                        <div class="flex items-center">
+                            <span class="font-semibold text-sm">{{project.teamSize ?? 1}}</span>
+                        </div>
+                    </div>
+                     
                     <div class="flex space-x-4">
                         <a v-bind:href="project.preview" target="_blank" class="flex items-center space-x-2 bg-[#1876d2] h-10 text-white  px-4 rounded-md">
                             <font-awesome-icon icon="fa-solid fa-desktop" />
-                            <span>Live Demo</span>
+                            <span>Production</span>
                         </a>
 
-                        <a v-bind:href="project.github" target="_blank" class="flex items-center space-x-2 bg-[#1b222b] h-10 text-white  px-4 rounded-md">
+                        <a v-show="project.github" v-bind:href="project.github" target="_blank" class="flex items-center space-x-2 bg-[#1b222b] h-10 text-white  px-4 rounded-md">
                             <font-awesome-icon  icon="fa-brands fa-github" />
-                            <span>View Github</span>
+                            <span>Github</span>
                         </a>
                     </div>
                 </div>

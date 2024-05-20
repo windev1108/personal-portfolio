@@ -3,7 +3,7 @@
   <div 
   :class="[ theme === 'dark' ? 'after:bg-[#111]' : 'after:bg-[#fff]']"
   class="fixed top-0 left-0 right-0 bottom-0 z-[30] flex justify-center items-center  after:z-[10] after:bg-opacity-50  after:absolute after:top-0 after:left-0 after:right-0 after:bottom-0">
-    <div id="loader" ></div>
+    <div class="loader" ></div>
   </div>
 </template>
 
@@ -15,57 +15,32 @@ const props = defineProps < {
 </script>
 
 <style>
-:root {
-  --animation-duration: 0.8s;
-  --circle-diameter: 50px;
-  --circle-scale-percent: 0.2;
+.loader {
+  width: 50px;
+  aspect-ratio: 1;
+  display: grid;
+}
+.loader::before,
+.loader::after {    
+  content:"";
+  grid-area: 1/1;
+  --c:no-repeat radial-gradient(farthest-side,#FFb400 92%,#0000);
+  background: 
+    var(--c) 50%  0, 
+    var(--c) 50%  100%, 
+    var(--c) 100% 50%, 
+    var(--c) 0    50%;
+  background-size: 12px 12px;
+  animation: l12 1s infinite;
+}
+.loader::before {
+  margin: 4px;
+  filter: hue-rotate(45deg);
+  background-size: 8px 8px;
+  animation-timing-function: linear
 }
 
-#loader {
-  position: relative;
-  z-index: 20;
-  left: calc(var(--circle-diameter) * -1);
-}
-
-#loader:before,
-#loader:after {
-  content: " ";
-  display: table-cell;
-  width: var(--circle-diameter);
-  height: var(--circle-diameter);
-  border-radius: 50%;
-  position: absolute;
-  animation-duration: var(--animation-duration);
-  animation-name: revolve;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
-  mix-blend-mode: darken;
-}
-
-#loader:before {
-  background: rgb(77, 232, 244);
-}
-
-#loader:after {
-  background: rgb(253, 62, 62);
-  animation-delay: calc(var(--animation-duration) / -2);
-}
-
-@keyframes revolve {
-  0% {
-    left: 0;
-  }
-  25% {
-    transform: scale(calc(1 + var(--circle-scale-percent)));
-  }
-  50% {
-    left: var(--circle-diameter);
-  }
-  75% {
-    transform: scale(calc(1 - var(--circle-scale-percent)));
-  }
-  100% {
-    left: 0;
-  }
+@keyframes l12 { 
+  100%{transform: rotate(.5turn)}
 }
 </style>

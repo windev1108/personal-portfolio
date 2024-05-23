@@ -4,12 +4,12 @@
     "nickName": "Win",
     "age": 23,
     "desc": "I'm a fullstack web developer  focused on crafting clean & user‑friendly experiences, I am passionate about build excellent software that improves the lives of those around me",
-    "role": "Fullstack web developer",
+    "role": "Fullstack developer",
     "isOpenJob": true,
     "address": "Da Nang City, Viet Nam",
     "phone": 969782408,
     "email": "vu.huynhanh102@gmail.com",
-    "avatar": "https://cdn.discordapp.com/attachments/930155553383129178/1241763133656404050/1715564637137_1.png?ex=664b6189&is=664a1009&hm=e28678bb4760e7ec123b297a0d8568b583cb826c0f121dfedcf6bdb4eea2c109&",
+    "avatar": "/images/avatar.png",
     "github": "https://github.com/windev1108",
     "facebook": "https://www.facebook.com/profile.php?id=100007616595443",
     "instagram": "https://www.instagram.com/wiindev",
@@ -76,6 +76,11 @@
             "src": "https://redux-toolkit.js.org/"
         },
         {
+            "name": "Zustand",
+            "img": "/images/skills/zustand.png",
+            "src": "https://zustand-demo.pmnd.rs"
+        },
+        {
             "name": "TailwindCSS",
             "img": "https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/tailwindcss.svg",
             "src": "https://tailwindcss.com"
@@ -119,24 +124,52 @@
     "projects": [
         {
             "id": 1,
+            "name": "Bitkub Learning",
+            "platform": "web",
+            "desc": "An online learning platform and certification exams to earn NFTs and automatically add them to your CV, a job matching system that matches the fields in your CV",
+            "imgs": [
+                "/images/learnnearn/1.png",
+                "/images/learnnearn/2.png",
+                "/images/learnnearn/3.png",
+                "/images/learnnearn/4.png",
+                "/images/learnnearn/5.png",
+                "/images/learnnearn/6.png",
+                "/images/learnnearn/7.png",
+                "/images/learnnearn/8.png"
+            ],
+            "preview": "https://learning-dev-var.vercel.app",
+            "github": null,
+            "languages": [
+                "Typescript",
+                "TailwindCSS",
+                "NextJS",
+                "NestJS",
+                "Zustand",
+                "Socket.IO",
+                "PostgreSQL"
+            ],
+            "teamSize": 16
+        },
+        {
+            "id": 2,
             "name": "Fanchain",
             "platform": "web",
             "desc": "FanChain is your gateway to a revolutionary digital world, where creators and fans unite like never before. Empower your creativity with NFTs, engage with your audience, and build thriving communities.",
             "imgs": [
-                "https://cdn.discordapp.com/attachments/930155553383129178/1173518396772585482/image.png?ex=664af5ac&is=6649a42c&hm=c3986251c202219490f860ab350283436a9601e94e9231807961cd70fc2a97dc&",
-                "https://cdn.discordapp.com/attachments/930155553383129178/1173518397431095346/image.png?ex=664af5ac&is=6649a42c&hm=1071bf4e1792a21f3e38889f31737c9bb399ae00948be0428a960a05b25bd5ef&",
-                "https://cdn.discordapp.com/attachments/930155553383129178/1173518397850538035/image.png?ex=664af5ac&is=6649a42c&hm=6c8b8f1887183564e68d3161ee02733251d0845ddcf2b41f5042ce5d6c0be7cc&",
-                "https://cdn.discordapp.com/attachments/930155553383129178/1173518398458695730/image.png?ex=664af5ad&is=6649a42d&hm=4d36e3b9dcec91f2fd3443680bedc3fe50ed095f69eae9d7ce403d95357752a3&",
-                "https://cdn.discordapp.com/attachments/930155553383129178/1173520399787638844/image.png?ex=664af78a&is=6649a60a&hm=71d73945de93effba3bed6f4e209ae93cc6158446c32c462473127ebb1cf4256&",
-                "https://cdn.discordapp.com/attachments/930155553383129178/1173520400207061002/image.png?ex=664af78a&is=6649a60a&hm=f7f007c26537cd78e2a225c50e469535bdf76a7b0b893a06ad38c84a36f9f687&",
-                "https://cdn.discordapp.com/attachments/930155553383129178/1241758680194613409/donation-7.png?ex=664b5d64&is=664a0be4&hm=bf329ac4b6793391ace9dd231a5e9e64f3cd5628a16c8dba33e61c1f120e92d4&",
-                "https://cdn.discordapp.com/attachments/930155553383129178/1241758679813066854/donation-8.png?ex=664b5d64&is=664a0be4&hm=2e0d7aaa4f7c9cc8b40ef9fcb56f681c1b49f60794053b28a3a6d0e88e29d00f&",
-                "https://cdn.discordapp.com/attachments/930155553383129178/1241758681981386905/donation-2.png?ex=664b5d64&is=664a0be4&hm=94ebaecc9f6321865688ba62c23bb1ebe34842ee0b12978fd1494483242ac257&",
-                "https://cdn.discordapp.com/attachments/930155553383129178/1241758681616617533/donation-3.png?ex=664b5d64&is=664a0be4&hm=c1b570f11a1db4423048cefd290f3c9f21cb042e687e5300a7fcfe7483c4c7cf&",
-                "https://cdn.discordapp.com/attachments/930155553383129178/1241758680538550292/donation-5.png?ex=664b5d64&is=664a0be4&hm=c49fdf713378d38751d9b8536913c86e991845434d7d7751b7059b71d3a6ed68&",
-                "https://cdn.discordapp.com/attachments/930155553383129178/1241758680916168714/donation-6.png?ex=664b5d64&is=664a0be4&hm=fc41bb8ab9be3bf203fc28081fc213d921c29a985a177485340d0b86818e002a&",
-                "https://cdn.discordapp.com/attachments/930155553383129178/1241758681306107924/donation-4.png?ex=664b5d64&is=664a0be4&hm=e0a77e0f44d319e040afe7eb09b627c3c5e725ec8439e0c45b8d402fa8c8f313&",
-                "https://cdn.discordapp.com/attachments/930155553383129178/1241758682300157972/donation-1.png?ex=664b5d64&is=664a0be4&hm=2b6f31845803358271c95c25c952835995e5883a966d89fe9900e9c994362727&"
+                "/images/fanchain/1.png",
+                "/images/fanchain/2.png",
+                "/images/fanchain/3.png",
+                "/images/fanchain/4.png",
+                "/images/fanchain/5.png",
+                "/images/fanchain/6.png",
+                "/images/fanchain/7.png",
+                "/images/fanchain/8.png",
+                "/images/fanchain/9.png",
+                "/images/fanchain/10.png",
+                "/images/fanchain/11.png",
+                "/images/fanchain/12.png",
+                "/images/fanchain/13.png",
+                "/images/fanchain/14.png"
             ],
             "preview": "https://fanchain.network",
             "github": null,
@@ -145,15 +178,15 @@
                 "TailwindCSS",
                 "NextJS",
                 "NestJS",
-                "Redux",
+                "Zustand",
                 "Socket.IO",
                 "GraphQL",
                 "MySQL"
             ],
-            "teamSize": 10
+            "teamSize": 7
         },
         {
-            "id": 2,
+            "id": 3,
             "name": "ChiChi",
             "platform": "web",
             "desc": "E-commerce website with integrated online payment",
@@ -174,13 +207,13 @@
                 "TailwindCSS",
                 "NextJS",
                 "NestJS",
-                "Redux",
+                "Zustand",
                 "Socket.IO",
                 "MySQL"
             ]
         },
         {
-            "id": 3,
+            "id": 4,
             "name": "WSocial",
             "platform": "web",
             "desc": "Create a social networking platform with the intention of bringing people together",
@@ -206,22 +239,6 @@
                 "GraphQL",
                 "Socket.IO"
             ]
-        },
-        {
-            "id": 4,
-            "name": "Personal Portfolio",
-            "platform": "web",
-            "desc": "Build a personal portfolio website, wish to introduce yourself in detail in the website",
-            "imgs": [
-                "/images/portfolio/1.png",
-                "/images/portfolio/2.png",
-                "/images/portfolio/3.png",
-                "/images/portfolio/4.png",
-                "/images/portfolio/5.png"
-            ],
-            "preview": "https://windev.vercel.app/",
-            "github": "https://github.com/vuhuynhdev102/personal-portfolio",
-            "languages": ["Vue", "Typescript", "TailwindCSS"]
         },
         {
             "id": 5,

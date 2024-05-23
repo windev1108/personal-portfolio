@@ -335,7 +335,7 @@
                   {{ user.happyCustomers }}
                 </h1>
                 <span
-                  class="absolute top-0 lg:left-[15%] left-[24%] text-[30px] text-primary"
+                  class="absolute top-0 lg:left-[28%] left-[45%] text-[30px] text-primary"
                   >+</span
                 >
               </div>

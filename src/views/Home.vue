@@ -6,7 +6,7 @@ import About from '../components/About.vue'
 import Contact from '../components/Contact.vue'
 import Cursor from '../components/Cursor.vue'
 import dataJson from '../../data/user.json'
-import { env } from '../utils/const';
+import { env } from '@/utils/const';
 
   const focused  = ref(0)
   const isLoading = ref<boolean>(true)

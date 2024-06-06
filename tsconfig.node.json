@@ -10,6 +10,6 @@
     "declaration": true,  // Đảm bảo rằng các tệp .d.ts sẽ được tạo ra
     "composite": true
   },
-  "include": ["src/**/*.ts"],
+  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"],
   "exclude": ["node_modules"]
 }

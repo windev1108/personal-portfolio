@@ -8,10 +8,6 @@
     "esModuleInterop": true,
     "skipLibCheck": true,
     "declaration": true,  // Đảm bảo rằng các tệp .d.ts sẽ được tạo ra
-    "declarationDir": "./types",
-    "composite": true,
-    "moduleResolution": "Node",
-    "allowSyntheticDefaultImports": true
   },
   "include": ["src/**/*.ts"],
   "exclude": ["node_modules"]

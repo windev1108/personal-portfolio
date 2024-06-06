@@ -6,6 +6,7 @@ import About from '../components/About.vue'
 import Contact from '../components/Contact.vue'
 import Cursor from '../components/Cursor.vue'
 import dataJson from '../../data/user.json'
+import { env } from '../utils/const';
 
   const focused  = ref(0)
   const isLoading = ref<boolean>(true)
@@ -130,7 +131,7 @@ import dataJson from '../../data/user.json'
           :class="[ fadeOut  ? 'top-[50%] opacity-0' : 'top-0 opacity-100']"
           class="fixed lg:mt-0 mt-10 lg:space-y-0 space-y-6 lg:flex block transition-all duration-700 ease-in-out top-0 left-0 right-0 bottom-0 items-center lg:space-x-28 z-10 w-full lg:px-12 px-5">
             <div class="lg:w-[30%] lg:h-[30rem]  w-full flex justify-center  overflow-hidden">
-               <img class="lg:border-none border-[4px] border-[#333] shadow-md rounded-full object-cover lg:rounded-3xl lg:shadow-md  h-[15rem] lg:w-[20rem] w-[15rem]  lg:h-full" :src="`${user.avatar}`" alt="">
+               <img class="lg:border-none border-[4px] border-[#333] shadow-md rounded-full object-cover lg:rounded-3xl lg:shadow-md  h-[15rem] lg:w-[20rem] w-[15rem]  lg:h-full" :src="`${env.AVATAR_URL}`" alt="">
             </div>
             <div class="lg:w-[50%] w-full lg:space-y-12 space-y-4"> 
               <div class="lg:space-y-4 space-y-2">

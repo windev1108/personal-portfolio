@@ -215,13 +215,13 @@
                   :class="[theme === 'dark' ? 'text-[#fff]' : 'text-[#666]']"
                   class="font-semibold transition-all duration-1000 text-[#fff] text-opacity-60"
                 >
-                  Nationality:
+                  Hobbies:
                 </h1>
                 <h1
                   :class="[theme === 'dark' ? 'text-[#fff]' : 'text-[#666]']"
                   class="font-semibold transition-all duration-1000 text-[#fff] w-full break-words"
                 >
-                  {{ user.nationality }}
+                  {{ user.hobbies }}
                 </h1>
               </div>
               <div

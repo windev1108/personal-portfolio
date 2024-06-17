@@ -14,9 +14,8 @@
     "facebook": "https://www.facebook.com/profile.php?id=100007616595443",
     "instagram": "https://www.instagram.com/wiindev",
     "twitter": "https://twitter.com/chjcago2001",
-    "nationality": "Viet Nam",
     "languages": "Vietnamese , English",
-    "bio": ["Game", "Music" , "Gym" , "Research"],
+    "hobbies": "Workout, Music, Game",
     "yearsExperience": 4,
     "happyCustomers": 24,
     "wonAwards": 2,
@@ -124,7 +123,7 @@
     "projects": [
         {
             "id": 1,
-            "name": "Bitkub Learning",
+            "name": "E-Learning",
             "platform": "web",
             "desc": "An online learning platform and certification exams to earn NFTs and automatically add them to your CV, a job matching system that matches the fields in your CV",
             "imgs": [
@@ -146,7 +145,8 @@
                 "NestJS",
                 "Zustand",
                 "Socket.IO",
-                "PostgreSQL"
+                "PostgreSQL",
+                "AWS"
             ],
             "teamSize": 16
         },
@@ -181,7 +181,8 @@
                 "Zustand",
                 "Socket.IO",
                 "GraphQL",
-                "MySQL"
+                "MySQL",
+                "AWS"
             ],
             "teamSize": 7
         },
@@ -303,28 +304,6 @@
             "preview": "https://winphim-react.web.app",
             "github": "https://github.com/windev1108/winphim-react",
             "languages": ["Javascript", "React", "TailwindCSS", "Firebase"]
-        },
-        {
-            "id": 8,
-            "name": "Deliveroo Clone",
-            "desc": "Build your first project using react native according to deliveroo template",
-            "platform": "mobile",
-            "imgs": [
-                "/images/deliveroo/1.jpg",
-                "/images/deliveroo/2.jpg",
-                "/images/deliveroo/3.jpg",
-                "/images/deliveroo/4.jpg",
-                "/images/deliveroo/5.jpg"
-            ],
-            "preview": "https://firebasestorage.googleapis.com/v0/b/discord-6e069.appspot.com/o/file%2F315914578_5992870357390942_6313454665218323563_n.mp4?alt=media&token=b15d8233-2536-4b1f-9fc2-73056d3a2d7c",
-            "github": "https://github.com/windev1108/deliveroo-clone",
-            "languages": [
-                "Typescript",
-                "React Native",
-                "Redux",
-                "TailwindCSS",
-                "Firebase"
-            ]
         }
     ]
 }

@@ -228,7 +228,7 @@
                 "/images/wsocial/7.jpg",
                 "MySQL"
             ],
-            "preview": "https://wsocial.vercel.app",
+            "preview": null,
             "github": "https://github.com/vuhuynhdev102/wsocial",
             "languages": [
                 "Typescript",
